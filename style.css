@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+}
+span{
+  margin: 3rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+h1{
+  margin: 3rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+nav{
+  height: 100vh;
+  /* width: 16rem; */
+  background-color: #000000;
+  color: aliceblue;
+  display: none;
+  /* transition: all 700ms ease-in; */
+}
+ul{
+  transition: all 700ms ease-in;
+  list-style: none;
+}
+.l1{
+  margin-left: 3rem;
+}
+.l2{
+  margin-left: 4rem;
+}
+.l3{
+  margin-left: 5rem;
+}
