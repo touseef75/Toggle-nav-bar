@@ -20,11 +20,32 @@ h1{
 }
 nav{
   height: 100vh;
-  /* width: 16rem; */
+  width: 16rem;
   background-color: #000000;
   color: aliceblue;
   display: none;
   /* transition: all 700ms ease-in; */
+}
+#color{
+  height: 100vh;
+  width: 18rem;
+  background-color: red;
+  color: aliceblue;
+  display: none;
+}
+#blue{
+  height: 100vh;
+  width: 20rem;
+  background-color: blue;
+  color: aliceblue;
+  display: none;
+}
+#yellow{
+  height: 100vh;
+  width: 22rem;
+  background-color: yellow;
+  color: aliceblue;
+  display: none;
 }
 ul{
   transition: all 700ms ease-in;

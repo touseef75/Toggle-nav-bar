@@ -1,16 +1,24 @@
-let but = document.querySelector("span")
+$(function(){
+    $("span").click(function(){
+        $("nav").toggle(1500);
+        $("#color").toggle(1000);
+        $("#blue").toggle(800);
+        $("#yellow").toggle(600);
+    })
+    // $("nav").click(function(){
+    //     $("nav").css("background-color","pink")
 
-but.addEventListener("click",()=>{
-let nav = document.querySelector("nav")
-    if(nav.style.display == "none"){
-        nav.style.display = "block";
-        nav.style.width = "16rem"
-        // nav.style.transition = "all .5s"
-    }else{
-        nav.style.display = "none";
+    //     // let a = $("nav").html();
+    //     // console.log(a)
+    // })
+    // $("nav").mouseenter(function(){
+    //     $("nav").css("background-color","yellow")
 
-    }
+    //     // let a = $("nav").html();
+    //     // console.log(a)
+    // })
 })
+
 
 
 
