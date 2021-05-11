@@ -60,3 +60,64 @@ ul{
 .l3{
   margin-left: 5rem;
 }
+@media screen and (max-width:640px){
+  span{
+  margin: 1rem;
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+}
+h1{
+  margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#yellow{
+  height: 100vh;
+  width: 13rem;
+  background-color: yellow;
+  color: aliceblue;
+  display: none;
+}
+#blue{
+  height: 100vh;
+  width: 10rem;
+  background-color: blue;
+  color: aliceblue;
+  display: none;
+}
+#color{
+  height: 100vh;
+  width: 9rem;
+  background-color: red;
+  color: aliceblue;
+  display: none;
+}
+nav{
+  height: 100vh;
+  width: 8rem;
+  background-color: #000000;
+  color: aliceblue;
+  display: none;
+  /* transition: all 700ms ease-in; */
+}
+
+
+
+
+
+.l1{
+  margin-left: 1rem;
+}
+.l2{
+  margin-left: 2rem;
+}
+.l3{
+  margin-left: 3rem;
+}
+}
