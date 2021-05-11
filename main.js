@@ -5,7 +5,9 @@ $(function(){
         $("#blue").toggle(800);
         $("#yellow").toggle(600);
     })
-    // $("nav").click(function(){
+    
+})
+// $("nav").click(function(){
     //     $("nav").css("background-color","pink")
 
     //     // let a = $("nav").html();
@@ -17,7 +19,6 @@ $(function(){
     //     // let a = $("nav").html();
     //     // console.log(a)
     // })
-})
 
 
 
